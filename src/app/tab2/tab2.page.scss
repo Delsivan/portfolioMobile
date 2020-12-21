@@ -1,0 +1,62 @@
+.ion-color-blue {
+    --ion-color-base: var(--ion-color-blue);
+    --ion-color-base-rgb: var(--ion-color-blue-rgb);
+    --ion-color-contrast: var(--ion-color-blue-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-blue-contrast-rgb);
+    --ion-color-shade: var(--ion-color-blue-shade);
+    --ion-color-tint: var(--ion-color-blue-tint);
+  }
+
+  .ion-color-new {
+    --ion-color-base: var(--ion-color-new);
+    --ion-color-base-rgb: var(--ion-color-new-rgb);
+    --ion-color-contrast: var(--ion-color-new-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-new-contrast-rgb);
+    --ion-color-shade: var(--ion-color-new-shade);
+    --ion-color-tint: var(--ion-color-new-tint);
+  }
+
+.project-item {
+    display: flex;
+    //justify-content:center;
+    width: auto;
+
+    margin: 10px 0;
+
+    .project-img {
+        width: 150px;
+        margin: 0 10px;
+    }
+    .project-text {
+        width: 150px;
+        margin: 0 2px;
+
+        text-align: justify;
+    }
+    .project-text p {
+        font-size: 10px;
+        //padding: 14px;
+        margin-left: 12px;
+    }
+    .project-text h6 {
+        font-size: 14px;
+        font-weight: bold;
+        //margin-top: 10px;
+
+    }
+    .project-button {
+    //justify-content:center;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    //padding: 4px;
+    display: block;
+    width: 34%;
+    height: 24%;
+
+    margin-left: auto;
+    
+}
+  
+    
+}
