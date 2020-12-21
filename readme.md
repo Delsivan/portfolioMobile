@@ -1,4 +1,4 @@
-# carreiraUnica
+# Portfólio Mobile
 
 Aplicativo mobile desenvolvido durante a realização do curso Carreira Única.
 
