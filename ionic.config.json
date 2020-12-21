@@ -1,5 +1,8 @@
 {
   "name": "portifolio",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }
