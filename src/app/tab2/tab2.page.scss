@@ -16,16 +16,19 @@
     --ion-color-tint: var(--ion-color-new-tint);
   }
 
+
 .project-item {
     display: flex;
-    //justify-content:center;
-    width: auto;
+    width: 100%;
+    height: 110px;
 
     margin: 10px 0;
 
     .project-img {
-        width: 150px;
+        width: 50%;
+        height: 100%;
         margin: 0 10px;
+        object-fit: cover;
     }
     .project-text {
         width: 150px;
@@ -33,30 +36,32 @@
 
         text-align: justify;
     }
-    .project-text p {
-        font-size: 10px;
-        //padding: 14px;
-        margin-left: 12px;
-    }
+   
     .project-text h6 {
         font-size: 14px;
         font-weight: bold;
-        //margin-top: 10px;
-
+        margin: 0;
     }
-    .project-button {
-    //justify-content:center;
-    font-weight: bold;
-    text-transform: uppercase;
     
-    //padding: 4px;
-    display: block;
-    width: 34%;
-    height: 24%;
+    .project-text p {
+        font-size: 10px;
+        min-height: 50px;
+        overflow: hidden;
+    }
 
-    margin-left: auto;
-    
+    .see-more {
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;
+        width: 100%;
+        font-size: 12px;
+        color: #4c8dff;
+        text-decoration: none;
+    }    
 }
-  
-    
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background: #ccc;
 }
